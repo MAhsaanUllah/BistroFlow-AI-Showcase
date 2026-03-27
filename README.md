@@ -200,16 +200,16 @@ Infrastructure
 | Database  | Supabase PostgreSQL                 |
 | Auth      | Supabase Auth (Email + Google OAuth)|
 | WhatsApp  | Meta Cloud API + Twilio fallback    |
-Database
+## 🗄️ Database
 
-11 core tables with full RLS isolation
-33 SQL migrations tracking complete schema history
-Atomic operations via Supabase RPC stored procedures
-PostgreSQL triggers for audit trail
-Indexes on tenant_id, status, created_at, phone
+- 11 core tables with full RLS isolation
+- 33 SQL migrations tracking complete schema history
+- Atomic operations via Supabase RPC stored procedures
+- PostgreSQL triggers for audit trail
+- Indexes on `tenant_id`, `status`, `created_at`, `phone`
 
 
-🔌 API Endpoints
+## 🔌 API Endpoints
 | Method | Endpoint                         | Description                    |
 |:-------|:---------------------------------|:-------------------------------|
 | GET    | `/health`                        | Service health check           |
@@ -221,35 +221,40 @@ Indexes on tenant_id, status, created_at, phone
 | POST   | `/whatsapp-setup/config`         | Save WhatsApp credentials      |
 | POST   | `/whatsapp-setup/test-connection`| Send test WhatsApp message     |
 
-🚀 Subscription Plans
+## 🚀 Subscription Plans
 | Plan    | Price            | Trial         |
 |:--------|:-----------------|:--------------|
 | Starter | Rs. 4,999/month  | 14 days free  |
 | Pro     | Rs. 9,999/month  | 7 days free   |
 
-🗺️ Roadmap
+## 🗺️ Roadmap
 
- WhatsApp order bot (Roman Urdu + English)
- Real-time Kitchen Kanban dashboard
- POS Terminal with receipt printing
- Multi-tenant architecture with RLS
- Sales analytics & PDF export
- Super Admin console with impersonation
- Subscription management system
- Production deployment (Vercel + Railway + Supabase)
- Permanent WhatsApp token management
- DeepSeek AI full integration for all tenants
- Mobile app (React Native)
- Inventory auto-deduction on orders
- SMS fallback channel
- Loyalty points system
+**Completed ✅**
+- [x] WhatsApp order bot (Roman Urdu + English)
+- [x] Real-time Kitchen Kanban dashboard
+- [x] POS Terminal with receipt printing
+- [x] Multi-tenant architecture with RLS
+- [x] Sales analytics & PDF export
+- [x] Super Admin console with impersonation
+- [x] Subscription management system
+- [x] Production deployment (Vercel + Railway + Supabase)
+
+**In Progress 🔄**
+- [ ] Permanent WhatsApp token management
+- [ ] DeepSeek AI full integration for all tenants
+
+**Coming Soon 🔜**
+- [ ] Mobile app (React Native)
+- [ ] Inventory auto-deduction on orders
+- [ ] SMS fallback channel
+- [ ] Loyalty points system
 
 
-🔒 Security & Privacy
+## 🔒 Security & Privacy
 
-Note: This is a closed-source commercial product. Source code is maintained in a private repository.
-
-This showcase repository contains architecture documentation and feature overview only. No proprietary source code, API keys, or customer data is included.
+> **Note:** This is a closed-source commercial product. Source code is maintained in a private repository.
+>
+> This showcase repository contains architecture documentation and feature overview only. No proprietary source code, API keys, or customer data is included.
 
 ## 👨‍💻 Built By
 
