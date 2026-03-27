@@ -33,7 +33,10 @@ BistroFlow AI solves all of this in one platform.
 
 🤖 AI & NLP Engine — The Core Innovation
 This is not a simple chatbot wrapper. BistroFlow uses a custom-built NLP pipeline:
-Roman Urdu Parser (Custom Built)
+
+**Roman Urdu Parser (Custom Built)**
+
+```
 Customer types: "2 zinger 1 fries dena bhai"
                         ↓
         Tokenization + Number Word Mapping
@@ -43,17 +46,23 @@ Customer types: "2 zinger 1 fries dena bhai"
                         ↓
         Structured Order: [{item: "Zinger Burger", qty: 2},
                            {item: "French Fries", qty: 1}]
+```
 
-Handles spelling variations, slang, mixed language
-Confidence scoring on every match
-DeepSeek LLM fallback for complex/ambiguous queries
-Per-tenant bot personality customization
+- ✅ Handles spelling variations, slang, mixed language
+- ✅ Confidence scoring on every match
+- ✅ DeepSeek LLM fallback for complex/ambiguous queries
+- ✅ Per-tenant bot personality customization
 
-Conversation State Machine
+**Conversation State Machine**
+
+```
 BROWSING → COLLECTING_INFO → CONFIRMING → PENDING_PAYMENT → BROWSING
+```
+
 Full multi-turn conversation with memory per customer session.
 
 🏗️ System Architecture
+```
 ┌─────────────────────────────────────────────────────────┐
 │                    CUSTOMER (WhatsApp)                   │
 └──────────────────────┬──────────────────────────────────┘
@@ -85,6 +94,7 @@ Full multi-turn conversation with memory per customer session.
 │  Kitchen Kanban · POS Terminal · Sales Reports          │
 │  Menu Management · Staff · Super Admin Console          │
 └─────────────────────────────────────────────────────────┘
+```
 
 📱 Core Features
 1. WhatsApp Order Bot
