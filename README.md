@@ -98,15 +98,21 @@ Full multi-turn conversation with memory per customer session.
 
 ## 📸 Screenshots
 
-![Landing Page](assets/landing-page.png)
+<div align="center">
 
-![Dashboard](assets/dashboard.png)
+| Landing Page | Dashboard |
+|:---:|:---:|
+| ![Landing Page](assets/landing-page.png) | ![Dashboard](assets/dashboard.png) |
 
-![POS Terminal](assets/pos.png)
+| POS Terminal | Menu Catalog |
+|:---:|:---:|
+| ![POS Terminal](assets/pos.png) | ![Menu Catalog](assets/menu-catalog.png) |
 
-![Menu Management](assets/menu.png)
+| Print Settings | Sales Report |
+|:---:|:---:|
+| ![Print Settings](assets/Print-Setting.png) | ![Sales Report](assets/Sales-report.png) |
 
-![Menu Catalog](assets/menu-catalog.png)
+</div>
 
 ---
 
