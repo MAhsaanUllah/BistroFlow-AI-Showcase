@@ -22,7 +22,14 @@ Manual billing errors
 BistroFlow AI solves all of this in one platform.
 
 ✨ What Makes It Different
-FeatureBistroFlow AITraditional POSOrder channelWhatsApp (customers already use it)Dedicated app requiredLanguage supportRoman Urdu + EnglishEnglish onlyKitchen updatesReal-time Kanban boardManual ticketsAI integrationCustom NLP + LLM fallbackNoneSetup timeWhatsApp wizard in minutesDays of trainingPriceRs. 4,999/moRs. 20,000+
+| Feature            | BistroFlow AI                    | Traditional POS          |
+|:-------------------|:---------------------------------|:-------------------------|
+| Order channel      | WhatsApp (customers already use it) | Dedicated app required |
+| Language support   | Roman Urdu + English             | English only             |
+| Kitchen updates    | Real-time Kanban board           | Manual tickets           |
+| AI integration     | Custom NLP + LLM fallback        | None                     |
+| Setup time         | WhatsApp wizard in minutes       | Days of training         |
+| Price              | Rs. 4,999/mo                     | Rs. 20,000+              |
 
 🤖 AI & NLP Engine — The Core Innovation
 This is not a simple chatbot wrapper. BistroFlow uses a custom-built NLP pipeline:
@@ -128,11 +135,33 @@ RLS policies on all 11 database tables
 
 🛠️ Full Tech Stack
 Backend
-ComponentTechnologyFrameworkFastAPI (Python 3.10+)ServerUvicorn (ASGI)NLPRapidFuzz (custom fuzzy parser)LLMDeepSeek AI APISecurityHMAC-SHA256, Redis replay guardCacheRedis (rate limiting)HTTP Clienthttpx
+| Component   | Technology                        |
+|:------------|:----------------------------------|
+| Framework   | FastAPI (Python 3.10+)            |
+| Server      | Uvicorn (ASGI)                    |
+| NLP         | RapidFuzz (custom fuzzy parser)   |
+| LLM         | DeepSeek AI API                   |
+| Security    | HMAC-SHA256, Redis replay guard   |
+| Cache       | Redis (rate limiting)             |
+| HTTP Client | httpx                             |
 Frontend
-ComponentTechnologyFrameworkReact 18 + TypeScript 5.6Build ToolVite 5StylingTailwind CSS 3.4AnimationsFramer Motion 12StateTanStack React Query 5RealtimeSupabase RealtimePDFjsPDF + autotable
+| Component  | Technology                  |
+|:-----------|:----------------------------|
+| Framework  | React 18 + TypeScript 5.6  |
+| Build Tool | Vite 5                      |
+| Styling    | Tailwind CSS 3.4            |
+| Animations | Framer Motion 12            |
+| State      | TanStack React Query 5      |
+| Realtime   | Supabase Realtime           |
+| PDF        | jsPDF + autotable           |
 Infrastructure
-ComponentPlatformFrontendVercel (auto-deploy from GitHub)BackendRailway (NixPacks builder)DatabaseSupabase PostgreSQLAuthSupabase Auth (Email + Google OAuth)WhatsAppMeta Cloud API + Twilio fallback
+| Component | Platform                            |
+|:----------|:------------------------------------|
+| Frontend  | Vercel (auto-deploy from GitHub)    |
+| Backend   | Railway (NixPacks builder)          |
+| Database  | Supabase PostgreSQL                 |
+| Auth      | Supabase Auth (Email + Google OAuth)|
+| WhatsApp  | Meta Cloud API + Twilio fallback    |
 Database
 
 11 core tables with full RLS isolation
@@ -143,10 +172,22 @@ Indexes on tenant_id, status, created_at, phone
 
 
 🔌 API Endpoints
-MethodEndpointDescriptionGET/healthService health checkGET/webhooks/whatsappMeta webhook verificationPOST/webhooks/whatsappReceive WhatsApp messagesGET/ordersList tenant ordersPOST/ordersCreate POS orderPATCH/orders/{id}/statusUpdate order statusPOST/whatsapp-setup/configSave WhatsApp credentialsPOST/whatsapp-setup/test-connectionSend test WhatsApp message
+| Method | Endpoint                         | Description                    |
+|:-------|:---------------------------------|:-------------------------------|
+| GET    | `/health`                        | Service health check           |
+| GET    | `/webhooks/whatsapp`             | Meta webhook verification      |
+| POST   | `/webhooks/whatsapp`             | Receive WhatsApp messages      |
+| GET    | `/orders`                        | List tenant orders             |
+| POST   | `/orders`                        | Create POS order               |
+| PATCH  | `/orders/{id}/status`            | Update order status            |
+| POST   | `/whatsapp-setup/config`         | Save WhatsApp credentials      |
+| POST   | `/whatsapp-setup/test-connection`| Send test WhatsApp message     |
 
 🚀 Subscription Plans
-PlanPriceTrialStarterRs. 4,999/month14 days freeProRs. 9,999/month7 days free
+| Plan    | Price            | Trial         |
+|:--------|:-----------------|:--------------|
+| Starter | Rs. 4,999/month  | 14 days free  |
+| Pro     | Rs. 9,999/month  | 7 days free   |
 
 🗺️ Roadmap
 
