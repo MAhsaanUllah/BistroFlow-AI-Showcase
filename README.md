@@ -98,16 +98,15 @@ Full multi-turn conversation with memory per customer session.
 
 ## 📸 Screenshots
 
-> Add your screenshots to the `assets/` folder and they will appear here automatically.
+![Landing Page](assets/landing-page.png)
 
-### Dashboard & Analytics
 ![Dashboard](assets/dashboard.png)
 
-### Real-Time Kitchen Kanban
-![Kitchen Kanban](assets/kitchen.png)
+![POS Terminal](assets/pos.png)
 
-### WhatsApp Bot in Action
-![WhatsApp Bot](assets/whatsapp-bot.png)
+![Menu Management](assets/menu.png)
+
+![Menu Catalog](assets/menu-catalog.png)
 
 ---
 
