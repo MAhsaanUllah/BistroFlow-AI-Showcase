@@ -1,15 +1,20 @@
-🍽️ BistroFlow AI — WhatsApp-Native Restaurant Operating System
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
-Show Image
+# 🍽️ BistroFlow AI — WhatsApp-Native Restaurant Operating System
+
+<div align="center">
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-bistroflow.vercel.app-brightgreen?style=for-the-badge)](https://bistroflow.vercel.app)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com)
+[![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp_API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://developers.facebook.com/docs/whatsapp)
+
+</div>
 
 BistroFlow AI is a production-grade, multi-tenant restaurant management SaaS built specifically for Pakistani restaurants. Customers place orders directly via WhatsApp in Roman Urdu or English — no app download required.
 
-🌐 Live Demo: bistroflow.vercel.app
+🌐 **Live Demo:** [bistroflow.vercel.app](https://bistroflow.vercel.app)
 
 🎯 The Problem
 Pakistani restaurants rely on WhatsApp for orders — but managing them manually causes:
@@ -116,13 +121,6 @@ Full multi-turn conversation with memory per customer session.
 
 ---
 
-## 🎥 Demo Video
-
-[![BistroFlow Demo](assets/dashboard.png)](YOUR_YOUTUBE_OR_LOOM_LINK)
-
-> 📌 Replace `YOUR_YOUTUBE_OR_LOOM_LINK` with your actual video link. Clicking the thumbnail will open the video.
-
----
 
 ## 📱 Core Features
 ### 1. 🤖 WhatsApp Order Bot
