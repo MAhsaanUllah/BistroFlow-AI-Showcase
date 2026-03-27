@@ -96,51 +96,74 @@ Full multi-turn conversation with memory per customer session.
 └─────────────────────────────────────────────────────────┘
 ```
 
-📱 Core Features
-1. WhatsApp Order Bot
+## 📸 Screenshots
 
-Roman Urdu + English natural language processing
-Fuzzy menu matching with confidence scoring
-Multi-turn conversation state machine
-Payment screenshot detection
-Order status notifications back to customer
-Per-tenant bot personality
+> Add your screenshots to the `assets/` folder and they will appear here automatically.
 
-2. Kitchen Dashboard (Real-Time Kanban)
+### Dashboard & Analytics
+![Dashboard](assets/dashboard.png)
 
-Live 3-column board: New → Preparing → Done
-Supabase Realtime WebSocket updates
-Sound alert on new orders
-5s polling fallback for reliability
+### Real-Time Kitchen Kanban
+![Kitchen Kanban](assets/kitchen.png)
 
-3. POS Terminal
+### WhatsApp Bot in Action
+![WhatsApp Bot](assets/whatsapp-bot.png)
 
-Walk-in order management (dine-in / takeaway / delivery)
-80mm thermal receipt printing
-Atomic order creation via Supabase RPC
-Table number tracking
+---
 
-4. Sales Intelligence
+## 🎥 Demo Video
 
-Daily / Monthly / Yearly revenue charts
-WhatsApp vs POS order breakdown
-Top selling items analysis
-PDF export for reporting
+[![BistroFlow Demo](assets/dashboard.png)](YOUR_YOUTUBE_OR_LOOM_LINK)
 
-5. Multi-Tenant Architecture
+> 📌 Replace `YOUR_YOUTUBE_OR_LOOM_LINK` with your actual video link. Clicking the thumbnail will open the video.
 
-Full tenant isolation via PostgreSQL Row Level Security
-Super Admin console with safe impersonation
-Subscription lifecycle: trial → active → expired
-14-day free trial on Starter plan
+---
 
-6. Security Layer
+## 📱 Core Features
+### 1. 🤖 WhatsApp Order Bot
 
-HMAC-SHA256 webhook signature verification
-Redis-based replay attack prevention
-Rate limiting per tenant
-JWT sessions with refresh token handling
-RLS policies on all 11 database tables
+- Roman Urdu + English natural language processing
+- Fuzzy menu matching with confidence scoring
+- Multi-turn conversation state machine
+- Payment screenshot detection
+- Order status notifications back to customer
+- Per-tenant bot personality
+
+### 2. 🍳 Kitchen Dashboard (Real-Time Kanban)
+
+- Live 3-column board: New → Preparing → Done
+- Supabase Realtime WebSocket updates
+- Sound alert on new orders
+- 5s polling fallback for reliability
+
+### 3. 💻 POS Terminal
+
+- Walk-in order management (dine-in / takeaway / delivery)
+- 80mm thermal receipt printing
+- Atomic order creation via Supabase RPC
+- Table number tracking
+
+### 4. 📊 Sales Intelligence
+
+- Daily / Monthly / Yearly revenue charts
+- WhatsApp vs POS order breakdown
+- Top selling items analysis
+- PDF export for reporting
+
+### 5. 🏢 Multi-Tenant Architecture
+
+- Full tenant isolation via PostgreSQL Row Level Security
+- Super Admin console with safe impersonation
+- Subscription lifecycle: trial → active → expired
+- 14-day free trial on Starter plan
+
+### 6. 🔒 Security Layer
+
+- HMAC-SHA256 webhook signature verification
+- Redis-based replay attack prevention
+- Rate limiting per tenant
+- JWT sessions with refresh token handling
+- RLS policies on all 11 database tables
 
 
 🛠️ Full Tech Stack
@@ -223,10 +246,18 @@ Note: This is a closed-source commercial product. Source code is maintained in a
 
 This showcase repository contains architecture documentation and feature overview only. No proprietary source code, API keys, or customer data is included.
 
-👨‍💻 Built By
-Muhammad Ahsaan Ullah
-AI Automation & Full-Stack Engineer | Building production systems for Pakistani businesses
-Show Image
-Show Image
+## 👨‍💻 Built By
 
-BistroFlow AI — Bringing AI-powered order management to every Pakistani restaurant, one WhatsApp message at a time. 🇵🇰
+**Muhammad Ahsaan Ullah**  
+AI Automation & Full-Stack Engineer | Building production systems for Pakistani businesses
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/mahsaanullah)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/MAhsaanUllah)
+
+---
+
+<div align="center">
+
+**BistroFlow AI — Bringing AI-powered order management to every Pakistani restaurant, one WhatsApp message at a time. 🇵🇰**
+
+</div>
